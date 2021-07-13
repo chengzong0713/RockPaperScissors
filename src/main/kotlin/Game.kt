@@ -1,6 +1,5 @@
 
 fun main(args: Array<String>) {
-//for (x in 1..100 step 2 % 3) println(x)
   val options = arrayOf("Rock", "Paper", "Scissors")
   val gameChoice = getGameChoice(options)
   val userChoice = getUserChoice(options)
